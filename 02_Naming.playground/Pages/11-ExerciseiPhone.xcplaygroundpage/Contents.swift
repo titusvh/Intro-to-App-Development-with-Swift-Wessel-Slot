@@ -15,7 +15,12 @@
  - callout(Exercise): How many minutes of video will it take to fill the phone?\
  _Hint_: Do all of your calculations in megabytes (MB).
 */
+let totalIphoneStorageInMegabytes = 8000
+let storageTakenInMegabytes = 3000
+let oneMinutesOfVideoInMegabytes = 150
+let totalFreeStorage = totalIphoneStorageInMegabytes - storageTakenInMegabytes
 
+let minutesOfVideoTillIphoneStorageIsFull = totalFreeStorage / oneMinutesOfVideoInMegabytes
 
 
 
