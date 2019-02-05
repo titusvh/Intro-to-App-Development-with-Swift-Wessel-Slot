@@ -12,7 +12,7 @@ let newline = "Making new lines"
 /*:
  - experiment: Make a new string constant that is a list of the things you’ve learned, with each entry on a new line. Make sure you add the result to the playground page so that you can see the list properly.
  */
-
+let list = "\(constants) \n \(unicode) \n \(interpolation) \n \(combining) \n \(escaping) \n \(newline)"
 
 
 

@@ -23,7 +23,7 @@ let 英语问候 = "Hello, World!"
 let salutationAnglais = "Hello, World!"
 //: Emoji characters are also defined in Unicode, so you can include emoji in strings.\
 //: (On the Mac, type Command-Control-Space to bring up an emoji picker.)
-let welcomingPhrase = "Welcome! 😀"
+let welcomingPhrase = "Welcome! 😀" 
 //: You can also use emoji in names. That can be fun in small doses, but many programmers find it difficult to type, difficult to read, and less expressive than using words for names.
 let 🍓🍏🍒🍐🍋🍇 = "Fruit Salad"
 //: Move on to the next page to see how to combine strings together.

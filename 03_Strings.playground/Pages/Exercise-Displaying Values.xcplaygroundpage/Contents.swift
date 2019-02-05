@@ -14,7 +14,15 @@
  
  _Hint:_ Do all of your calculations in megabytes.
  */
+let totalIphoneStorageInMegabytes = 8000
+let storageTakenInMegabytes = 3000
+let oneMinutesOfVideoInMegabytes = 150
+let totalFreeStorage = totalIphoneStorageInMegabytes - storageTakenInMegabytes
 
+let minutesOfVideoTillIphoneStorageIsFull = totalFreeStorage / oneMinutesOfVideoInMegabytes
+
+
+let answer = "You can record \(minutesOfVideoTillIphoneStorageIsFull) more minutes of video."
 
 
 
