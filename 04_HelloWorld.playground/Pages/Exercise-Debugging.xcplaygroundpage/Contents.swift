@@ -18,7 +18,7 @@
 
 let questionWord = "WHY"
 let connectorWord = "but"
-let question = "\(connectorWord) \\(questionWord)?"
+let question = "\(connectorWord) \(questionWord)?"
 
 let incessantQuestion = "\(question)\(question)\(question)\(question)"
 
@@ -32,7 +32,7 @@ let botheration = "\(summons)\(incessantQuestion)"
 //: Sadly, this program has a bug. Follow the directions to find and fix the error!
 // -------------- 👇 Add your print statements below this line 👇 --------------------
 
-
+print(botheration)
 
 
 /*:
